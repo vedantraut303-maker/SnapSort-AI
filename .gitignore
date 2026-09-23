@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.qai_hub/
+.ipynb_checkpoints/
+*.log
+*.pt
+*.onnx
+*.pdf
+*.json
+.streamlit/

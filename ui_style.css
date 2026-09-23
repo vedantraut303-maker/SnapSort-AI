@@ -1,0 +1,27 @@
+/* SnapSort AI — Professional UI */
+
+.stApp {
+    background: linear-gradient(135deg, #07111f 0%, #0b1628 50%, #101c33 100%);
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1400px;
+}
+
+h1 { font-size: 3rem !important; font-weight: 800 !important; letter-spacing: -1px; }
+h2, h3 { font-weight: 700 !important; }
+
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 16px;
+    padding: 18px;
+    backdrop-filter: blur(10px);
+}
+[data-testid="stMetricValue"] { font-weight: 800; }
+.stButton > button, .stDownloadButton > button { border-radius: 10px; font-weight: 600; }
+section[data-testid="stSidebar"] { background: #081321; }
+div[data-testid="stExpander"] { border-radius: 12px; }
+.stProgress > div > div { border-radius: 10px; }
